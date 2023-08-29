@@ -39,16 +39,26 @@ public class Main {
 		//System.out.println(Arrays.toString(len));
 	}
 	
+	//모든요소의 값을 구해봐야 최대값을 알수 있기때문에 탑다운보단 바텀업이 적합한듯..?
 	private static int solution() {
-		setLength(N-1); //N-1까지 셋팅한다
+		//탑다운 호출은 setLength(N-1);
+		//N-1까지 셋팅한다
+		for(int i=1; i<N; i++) setLength2(i);
 		//가장 큰 길이를 구한다.
 		int max = 1;
 		for(int m : len) max = Math.max(max, m);
-		
 		return max;
 	}
 	
-	//길이배열을 셋팅한다
+	private static void setLength2(int n) {
+		int max = 0;
+		for(int i=0; i<n; i++) { //앞에서부터 돌면서 값이 자기보다 작은 배열중 가장 큰 길이값을 구한다
+			if(arr[n]>arr[i]) max=Math.max(max, setLength(i));
+		}
+		len[n] = max+1; //앞의 길이가 있다면 거기에 +1, 없다면 0+1로 셋팅된다.
+	}
+	
+	// 탑다운 : 길이배열을 셋팅한다
 	private static int setLength(int n) {
 		if(len[n] != -1) return len[n];
 		else {
@@ -56,12 +66,14 @@ public class Main {
 			for(int i=0; i<n; i++) { //앞에서부터 돌면서 값이 자기보다 작은 배열중 가장 큰 길이값을 구한다
 				if(arr[n]>arr[i]) max=Math.max(max, setLength(i));
 			}
-			len[n-1] = setLength(n-1);
+			len[n-1] = setLength(n-1); //맨아래 주석의 이유로 위 조건문에서 재귀 실행 안했다면 재귀를 실행하도록 설정..
+			//근데 또 앞에 if(max==0)넣으면 틀렸대;; 왜되는거지 이거
+			
 			return len[n] = max+1; //앞의 길이가 있다면 거기에 +1, 없다면 0+1로 셋팅된다.
 		}
 	}
 	
 	//내가 작성한 탑다운 방식의 경우 최초로 구하는 원소의 길이가 1이면(즉 자기보다 작은게 없으면 setLength()자체를 재귀호출하지 않으므로
-	//나머지 값들이 전부 -1이됨..;;
-	
+	//나머지 값들이 전부 -1이됨..;; 그래서 61번줄을 추가함
+	// (EX) 11 \n 1 2 3 4 5 6 7 8 9 10 1
 }
