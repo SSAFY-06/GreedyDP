@@ -25,8 +25,13 @@ https://epicarts.tistory.com/98
 
 -그리디 & 디피
 [BOJ_14501 퇴사](https://www.acmicpc.net/problem/14501)
+
 [BOJ_15486 퇴사2](https://www.acmicpc.net/problem/15486)
+
 [BOJ_1700 멀티탭 스케쥴링](https://www.acmicpc.net/problem/1700)
+
 [Programmers_161988_연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988)
+
 -구현
+
 [BOJ_16234 인구이동](https://www.acmicpc.net/problem/16234)
