@@ -8,9 +8,10 @@ https://limm-jk.tistory.com/4
 
 https://epicarts.tistory.com/98
 
-## 1주차 문제(2023/08/23~2023/08/30)
-- 그리디와 디피
-  
+### 1주차 문제(2023/08/23~2023/08/30)
+
+- 공통
+
 [BOJ_20056 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 
 [BOJ_20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
