@@ -24,6 +24,8 @@ https://epicarts.tistory.com/98
 ### 3주차 문제(2023/08/30~2023/09/06)
 
 -그리디 & 디피
+
+
 [BOJ_14501 퇴사](https://www.acmicpc.net/problem/14501)
 
 
