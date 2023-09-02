@@ -25,6 +25,13 @@ https://epicarts.tistory.com/98
 
 -그리디 & 디피
 
+[BOJ_20056 퇴사](https://www.acmicpc.net/problem/14501)
+
+[BOJ_20057 퇴사2](https://www.acmicpc.net/problem/15486)
+
+[BOJ_20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+
+[BOJ_1991 상어 초등학교](https://www.acmicpc.net/problem/21608)
 
 [BOJ_14501 퇴사](https://www.acmicpc.net/problem/14501)
 
@@ -39,6 +46,8 @@ https://epicarts.tistory.com/98
 
 
 -구현
+
+[BOJ_16236 인구이동](https://www.acmicpc.net/problem/16234)
 
 [BOJ_16234 인구이동](https://www.acmicpc.net/problem/16234)
 
