@@ -25,6 +25,8 @@ https://epicarts.tistory.com/98
 ### 2주차 문제
 ### (2023/08/30~2023/09/06)
 
+- 백준 링크가 안되요, 계속 403 forbidden 뜨는데 해결이 안돼서 해결 할 수 있는 사람은 해결해주셔도 됩니다!
+
 - 그리디, 디피
 
 [BOJ_14501 퇴사](https://www.acmicpc.net/problem/14501)
