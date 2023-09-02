@@ -13,12 +13,10 @@ https://epicarts.tistory.com/98
 
 - 공통
 
-[BOJ_20056 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
+[BOJ_11053 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 
-[BOJ_20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
+[BOJ_12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
 
-[BOJ_20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
+[BOJ_1931 회의실 배정](https://www.acmicpc.net/problem/1931)
 
-[BOJ_1991 상어 초등학교](https://www.acmicpc.net/problem/21608)
-
-[BOJ_16236 아기 상어](https://www.acmicpc.net/problem/16236)
+[BOJ_13305 주유소](https://www.acmicpc.net/problem/13305)
