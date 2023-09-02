@@ -21,13 +21,13 @@ https://epicarts.tistory.com/98
 
 [BOJ_13305 주유소](https://www.acmicpc.net/problem/13305)
 
-### 3주차 문제(2023/08/30~2023/09/06)
+### 4주차 문제
 
 - 공통
 
-[BOJ_14501 퇴사](https://www.acmicpc.net/problem/14501)
+[BOJ_20056 마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 
-[BOJ_15486 퇴사2](https://www.acmicpc.net/problem/15486)
+[BOJ_20057 마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)
 
 [BOJ_20058 마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)
 
